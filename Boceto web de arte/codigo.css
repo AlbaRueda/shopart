@@ -1,0 +1,50 @@
+* {background-color: #FAFF93;}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    place-items: left ;
+  }
+  .gif{border-top: 20px;}
+  .one {
+    text-align: center;
+    grid-column: 1 /4;
+    grid-row: 1;
+    background-color: #9F3170;
+    align-content: center; }
+  .Listalink
+    {align-items: center;
+      list-style-image:url("Logolist.jpg");
+      list-style-position:inside;
+      text-decoration: double;
+      text-decoration-color: #6A2770;}
+ul.Listalink li {padding-bottom: 5%}
+.ayuda {color: #050005;
+  font-family: fantasy;
+  text-decoration: none;
+  }
+.sobrenosotros{color: #050005;
+  font-family: fantasy;
+  text-decoration: none;
+  }
+.productos {color: #050005;
+font-family: fantasy;
+text-decoration: none;
+}
+  .four {
+    grid-column: 1;
+    grid-row: 2;
+    
+  }
+  
+  .five {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  
